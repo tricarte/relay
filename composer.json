@@ -1,0 +1,14 @@
+{
+  "name": "tricarte/relay",
+  "type": "library",
+  "license": "MIT",
+  "description": "Webman plugin tricarte/relay",
+  "require" : {
+  	  "cachewerk/relay": "^0.7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tricarte\\Relay\\": "src"
+    }
+  }
+}
